@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>purr purr (고양이 주접) - 반응형 홈페이지</title>
+    <!-- 파비콘 연결 -->
+    <link href="img/favicon.png" type="image/icon" rel="shortcut icon">
+    <!-- swiper css cdn 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- awesome icon cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- 외부 css 연결 -->
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <!-- js 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- swiper js cdn 연결 -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 외부 js 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header_wrap">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="로고">
+                    </a>
+                </div> <!-- logo end -->
+
+                <nav> <!-- pc nav -->
+                    <ul>
+                        <li><a href="#">Mew</a></li>
+                        <li><a href="#">Meow</a></li>
+                        <li><a href="#">Miaow</a></li>
+                        <li><a href="#">Mewing</a></li>
+                        <li><a href="#">Myeon</a></li>
+                        <li><a href="#">Purr</a></li>
+                    </ul>
+                </nav> <!-- pc nav end -->
+
+                <div id="navi">
+                    <!-- 화살표를 클릭하면 navi 들어감 -->
+                    <div class="navi_arrow">
+                        <a href="#"><i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <nav> <!-- 태블릿, 모바일 버전 nav -->
+                        <ul>
+                            <li><a href="#">Mew</a></li>
+                            <li><a href="#">Meow</a></li>
+                            <li><a href="#">Miaow</a></li>
+                            <li><a href="#">Mewing</a></li>
+                            <li><a href="#">Myeon</a></li>
+                            <li><a href="#">Purr</a></li>
+                        </ul>
+                    </nav> <!-- 태블릿, 모바일 버전 nav end -->
+                </div>
+
+                <div class="sns">
+                    <ul>
+                        <li><a href="#">
+                            <img src="img/insta.png" alt="인스타그램">
+                        </a></li>
+
+                        <li><a href="#">
+                            <img src="img/facebook.png" alt="페이스북">
+                        </a></li>
+
+                        <li class="youtube"><a href="#">
+                            <img src="img/youtube.png" alt="유튜브">
+                        </a></li>
+                    </ul>
+                </div> <!-- sns end -->
+
+                <!-- 메뉴 버튼 (햄버거 메뉴) -->
+                <div class="menu_btn">
+                    <a href="#"><img src="img/b_ham.png" alt="햄버거 메뉴"></a>
+                </div>
+            </div>
+        </header>
+
+        <section class="s1">
+            <div class="visual">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide v1"></div>
+                        <div class="swiper-slide v2"></div>
+                        <div class="swiper-slide v3"></div>
+                    </div>
+                    <!-- 슬라이드 동그라미 버튼 (pagination)  -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div class="visual_txt">
+                <h1>Gororong purr purr</h1>
+                <p>고양이는 항상 짜릿해... 최고야...</p>
+                    <a href="#">고양이 자세히 보기<span>→</span></a>
+            </div>
+        </section>
+
+        <section class="s2">
+            <div class="product_title">
+                <h1>고양이의<br>매력을 느껴보세요.</h1>
+                <p>고양이는 세계 최고로 귀엽습니다...</p>
+            </div>
+            <div class="product">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide p1">
+                            <a href="#">상자 뺏기기 싫은 고양이</a>
+                        </div>
+
+                        <div class="swiper-slide p2">
+                            <a href="#">고개 들고 있는 고양이</a>
+                        </div>
+
+                        <div class="swiper-slide p3">
+                            <a href="#">졸고 있는 고양이</a>
+                        </div>
+
+                        <div class="swiper-slide p4">
+                            <a href="#">빼꼼 고양이</a>
+                        </div>
+
+                        <div class="swiper-slide p5">
+                            <a href="#">아기 고양이</a>
+                        </div>
+
+                        <div class="swiper-slide p6">
+                            <a href="#">화보 찍는 고양이</a>
+                        </div>
+                    </div> <!-- swiper-wrapper end -->
+                    <!-- 왼쪽, 오른쪽 화살표 -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!-- 동그라미 버튼 -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s3">
+            <div class="center">
+                <h1>고양이에<br>대한 상식을 배워보세요.</h1>
+                <div class="new">
+                    <div class="new_list">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="new_img">
+                                        <div class="new_img2 n1"></div>
+                                    </div>
+                                    <div class="new_txt">
+                                        <h3>고양이는 인생의 70%를 잠으로 보냅니다.</h3>
+                                        <span>믿거나 말거나</span>
+                                        <p>성묘의 경우 하루 평균 14~16시간을 자고 
+                                            어린 고양이나 노령묘의 경우 더 많이 잡니다.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="new_img">
+                                        <div class="new_img2 n2"></div>
+                                    </div>
+                                    <div class="new_txt">
+                                        <h3>고양이 귀는 180도 회전할 수 있습니다.</h3>
+                                        <span>믿거나 말거나</span>
+                                        <p>고양이는 32개 작은 근육들을 사용해 
+                                            귀를 180도로 회전할 수 있습니다.</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="new_img">
+                                        <div class="new_img2 n3"></div>
+                                    </div>
+                                    <div class="new_txt">
+                                        <h3>고양이의 청력은 강아지보다 뛰어납니다.</h3>
+                                        <span>믿거나 말거나</span>
+                                        <p>고양이는 강아지보다 높은 음조를 들을 수 있으며 
+                                        저음에서 개와 비슷한 청력을 갖고 있습니다.</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="new_btn">
+                        <a href="#">고양이 상식 더보기</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s4">
+            <div class="center">
+                <div class="online">
+                    <div class="banner_left">
+                        <h3>츄르 주기</h3>
+                        <p>고양이에게 츄르를 줄 수 있습니다.</p>
+                    </div>
+                    <div class="banner_right">
+                        <a href="#">츄르 주기<span>→</span></a>
+                    </div>
+                </div> <!-- online end -->
+
+                <div class="info">
+                    <div class="banner_left">
+                        <h3>트릿 주기</h3>
+                        <p>고양이에게 트릿을 줄 수 있습니다.</p>
+                    </div>
+                    <div class="banner_right">
+                        <a href="#">트릿 주기<span>→</span></a>
+                    </div>
+                </div> <!-- info end -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="center">
+                <div class="footer_left">
+                    <img src="img/logo.png" alt="로고">
+                    <address>
+                        고양시 냥구 고냥로 555 (고냥 빌딩) 5층
+                    </address>
+                    <p>COPYRIGHT© 2021 Cats are the best in the world</p>
+                </div>
+
+                <div class="footer_right">
+                    <div class="family">
+                        <a href="#">고양이 놀아 주러 이동</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div><!-- wrap -->
+    <i class="fas fa-arrow-up"></i>
+</body>
+</html>
